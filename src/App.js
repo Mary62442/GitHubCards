@@ -9,7 +9,7 @@ class App extends Component {
   render() {
     return(
       <div className = "mainContainer">
-      <h1>GitHub Cards</h1>
+      <h1><i className="fa fa-github" aria-hidden="true"></i> GitHub Cards</h1>
       <h3>Light theme</h3>
       <LightGithub user = "Mary62442"/>
       <h3>Light theme</h3>

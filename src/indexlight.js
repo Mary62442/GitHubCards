@@ -8,15 +8,15 @@ class LightGithub extends Component {
     super(props);
     this.state = {error:false, data: {}}
   }
-  acquireFeeds = (json) => {
+  acquireInfo = (json) => {
         if(json === 'error') {this.setState({  error: true}); return};          
             this.setState({ data: json });
     };
-    getFeeds = (criteria) => {
-      fetchGithubInfo(criteria).then(responseHandling).then( this.acquireFeeds);
+    getInfo = (criteria) => {
+      fetchGithubInfo(criteria).then(responseHandling).then( this.acquireInfo);
     };
   componentDidMount() {
-    this.getFeeds(this.props.user);
+    this.getInfo(this.props.user);
   }
   render(){
     return(

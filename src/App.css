@@ -2,10 +2,10 @@
   position:absolute;
   width:80%;
   background-color:#efefef;
-  top:0;
+  top:1em;
   left:0;
   right:0;
-  bottom:0;
+  
   margin:0 auto;
   display:flex;
   align-items:center;
