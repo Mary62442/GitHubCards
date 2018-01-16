@@ -1,3 +1,31 @@
+.mainContainer {
+  position:absolute;
+  width:80%;
+  background-color:#efefef;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+  justify-content:flex-start;
+  flex-direction:column;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.4);
+  padding:2em 0;
+}
+
+.mainContainer h1 {
+  margin:0;
+  font-weight:normal;
+}
+
+.mainContainer h3 {
+  padding:1em;
+  margin:0;
+  font-weight:normal;
+}
+
 .avatarLight {
   width:60px;
   height:60px;
@@ -26,7 +54,7 @@
 .containerLight hr {
   position:absolute;
   left:0;
-  top:30px;
+  top:40px;
   width:100%;
   margin:0;
   padding:0;
@@ -229,7 +257,7 @@
 .containerDark hr {
   position:absolute;
   left:0;
-  top:30px;
+  top:40px;
   width:100%;
   margin:0;
   padding:0;

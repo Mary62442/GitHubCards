@@ -8,8 +8,11 @@ class App extends Component {
 
   render() {
     return(
-      <div>
+      <div className = "mainContainer">
+      <h1>GitHub Cards</h1>
+      <h3>Light theme</h3>
       <LightGithub user = "Mary62442"/>
+      <h3>Light theme</h3>
       <DarkGithub user = "diegomary"/>
       </div>
       )
