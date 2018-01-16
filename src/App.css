@@ -1,4 +1,4 @@
-.avatar {
+.avatarLight {
   width:60px;
   height:60px;
   border-radius:50%;
@@ -8,22 +8,22 @@
   transition: all 0.1s linear;
 }
 
-.avatar:hover {
+.avatarLight:hover {
   transform:rotate(20deg);
 }
-.container {
+.containerLight {
   position:relative;
-  background-color:#191919;
+  background-color:white;
   width:400px;
   text-align:center;
   padding: 20px 10px 10px 10px;
   box-sizing:border-box;
   box-shadow: 0 2px 5px rgba(0,0,0,0.4);
-  color:white;
+  color:#191919;
   margin:0 auto;
 
 }
-.container hr {
+.containerLight hr {
   position:absolute;
   left:0;
   top:30px;
@@ -32,49 +32,49 @@
   padding:0;
   border:none;
   height:15px;
-  background: linear-gradient(to right, #191919, #50e8ff, #191919);
+  background: linear-gradient(to right, white, #50e8ff, white);
   z-index:0;
 }
 
-.username {
+.usernameLight {
   text-decoration:none;
-  color:white;
+  color:#191919;
   font-size:2em;
   margin:0;
   padding:0;
 }
-.username > p {
+.usernameLight > p {
   margin:0;
   padding:0;
 }
 
-.location {
+.locationLight {
   margin:0;
   padding:0;
-  color:rgba(255,255,255,0.6);
+  color:rgba(25,25,25,0.6);
   font-size:0.8em;
 }
 
-.info {
+.infoLight {
   display:flex;
   align-items:center;
   justify-content:space-between;
 }
 
-.info p {
+.infoLight p {
   margin:0;
   padding:0;
-  color:rgba(255,255,255,0.7);
+  color:rgba(25,25,25,0.7);
 }
 
-.info > div {
+.infoLight > div {
   text-align:center;
 }
 
-.info > div >p:first-of-type {
+.infoLight > div >p:first-of-type {
   font-size:1.5em;
 }
-.info > div >p:nth-of-type(2) {
+.infoLight > div >p:nth-of-type(2) {
   text-transform:uppercase;
   font-size:0.8em;
 
@@ -82,7 +82,7 @@
 
 
 
-.flame {  
+.flameLight {  
   margin: 0 auto;
   position:relative;  
   width:60px;
@@ -92,7 +92,7 @@
   
 }
 
-.flame > div {
+.flameLight > div {
   position:absolute;
   border-radius:50%;
   z-index:1;
@@ -103,7 +103,7 @@
   animation: flameBefore  3s infinite;
 }
 
-.flame > div:before {
+.flameLight > div:before {
   position:absolute;
   border-radius:50%;
   z-index:1;
@@ -114,7 +114,7 @@
   animation: flameAfter  1.8s infinite;
 }
 
-.flame > div:after {
+.flameLight > div:after {
   position:absolute;
   border-radius:50%;
   z-index:1;
@@ -125,7 +125,7 @@
   animation: flameBefore  3.5s infinite;
 }
 
-.flame:before {
+.flameLight:before {
   position:absolute;
   top:0;
   left:0;
@@ -138,7 +138,7 @@
   animation: flameBefore  1.5s infinite;
 }
 
-.flame:after {
+.flameLight:after {
   position:absolute;
   top:0;
   left:0;
@@ -200,7 +200,7 @@
 
 
 @media (max-width:500px) {
-  .container {
+  .containerLight {
   
   width:300px;
   
