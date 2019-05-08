@@ -1,3 +1,5 @@
+[![DeepScan grade](https://deepscan.io/api/teams/3675/projects/5406/branches/41453/badge/grade.svg)](https://deepscan.io/dashboard#view=project&tid=3675&pid=5406&bid=41453)
+
 GitHub Cards
 ============
 
